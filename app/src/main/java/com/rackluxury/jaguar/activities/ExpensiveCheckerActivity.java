@@ -187,7 +187,7 @@ public class ExpensiveCheckerActivity extends AppCompatActivity implements Purch
                     });
 
                     StorageReference imageReference1 = storageReference.child(firebaseAuth.getUid()).child("Expensive Purchased");
-                    Uri uri1 = Uri.parse("android.resource://com.rackluxury.ferrari/drawable/expensive_checker");
+                    Uri uri1 = Uri.parse("android.resource://com.rackluxury.jaguar/drawable/expensive_checker");
                     UploadTask uploadTask = imageReference1.putFile(uri1);
                     uploadTask.addOnFailureListener(new OnFailureListener() {
                         @Override

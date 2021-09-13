@@ -186,7 +186,7 @@ public class VideoCheckerActivity extends AppCompatActivity implements Purchases
                     });
 
                     StorageReference imageReference1 = storageReference.child(firebaseAuth.getUid()).child("Video Purchased");
-                    Uri uri1 = Uri.parse("android.resource://com.rackluxury.ferrari/drawable/video_checker");
+                    Uri uri1 = Uri.parse("android.resource://com.rackluxury.jaguar/drawable/video_checker");
                     UploadTask uploadTask = imageReference1.putFile(uri1);
                     uploadTask.addOnFailureListener(new OnFailureListener() {
                         @Override

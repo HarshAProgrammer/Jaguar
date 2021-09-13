@@ -11,21 +11,21 @@ import android.widget.RemoteViews;
 
 import com.rackluxury.jaguar.R;
 
-public class FerrariAppWidgetProvider extends AppWidgetProvider {
+public class JaguarAppWidgetProvider extends AppWidgetProvider {
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         for (int appWidgetId : appWidgetIds) {
             Intent intent = new Intent(context, LoginOrRegisterActivity.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
-            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.ferrari_widget);
-            views.setOnClickPendingIntent(R.id.ferrari_widget_button, pendingIntent);
+            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.jaguar_widget);
+            views.setOnClickPendingIntent(R.id.jaguar_widget_button, pendingIntent);
             appWidgetManager.updateAppWidget(appWidgetId, views);
         }
     }
 
     @Override
     public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager, int appWidgetId, Bundle newOptions) {
-        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.ferrari_widget);
+        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.jaguar_widget);
         resizeWidget(newOptions, views);
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }
@@ -36,9 +36,9 @@ public class FerrariAppWidgetProvider extends AppWidgetProvider {
         int minHeight = appWidgetOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT);
         int maxHeight = appWidgetOptions.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT);
         if (maxHeight > 100 && maxWidth > 100) {
-            views.setViewVisibility(R.id.ferrari_widget_image, View.VISIBLE);
+            views.setViewVisibility(R.id.jaguar_widget_image, View.VISIBLE);
         } else if (maxHeight < 100 || maxWidth < 100) {
-            views.setViewVisibility(R.id.ferrari_widget_image, View.GONE);
+            views.setViewVisibility(R.id.jaguar_widget_image, View.GONE);
         }
     }
 }

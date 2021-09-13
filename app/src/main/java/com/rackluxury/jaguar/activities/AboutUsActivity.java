@@ -95,7 +95,7 @@ public class AboutUsActivity extends AppCompatActivity implements
             @Override
             public void onClick(View view) {
                 explosionField.explode(privacyImage);
-                String url = "https://carsfromferrari.blogspot.com/2021/08/cars-from-ferrari-privacy-policy.html";
+                String url = "https://carsfromjaguar.blogspot.com/2021/08/cars-from-jaguar-privacy-policy.html";
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -108,7 +108,7 @@ public class AboutUsActivity extends AppCompatActivity implements
             @Override
             public void onClick(View view) {
                 explosionField.explode(termsImage);
-                String url = "https://carsfromferrari.blogspot.com/2021/08/cars-from-ferrari-terms-and-condition.html";
+                String url = "https://carsfromjaguar.blogspot.com/2021/08/cars-from-jaguar-terms-and-condition.html";
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -122,7 +122,7 @@ public class AboutUsActivity extends AppCompatActivity implements
             public void onClick(View view) {
                 explosionField.explode(feedbackImage);
                 Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                        "mailto", "carsfromferrari@gmail.com", null));
+                        "mailto", "carsfromjaguar@gmail.com", null));
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Theme of mail");
                 startActivity(Intent.createChooser(intent, "Select post client"));
             }

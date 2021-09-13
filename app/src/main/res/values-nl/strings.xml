@@ -383,10 +383,10 @@ Tik om opnieuw te proberen."</string>
     <string name="settings_reddit_account_title">"Reddit Account"</string>
     <string name="settings_reddit_account_summary">"u/Hostilenemy"</string>
     <string name="settings_subreddit_title">"Subreddit"</string>
-    <string name="settings_subreddit_summary">"r/Ferrari"</string>
+    <string name="settings_subreddit_summary">"r/Jaguar"</string>
     <string name="settings_share_title">"Delen"</string>
     <string name="settings_share_summary">"Deel deze app met andere mensen als je ervan geniet"</string>
-    <string name="settings_version_title">"Sports cars from Ferrari"</string>
+    <string name="settings_version_title">"Sports cars from Jaguar"</string>
     <string name="settings_version_summary">"Versie %s"</string>
     <string name="settings_category_customization_title">"Aanpassingen"</string>
     <string name="settings_customize_light_theme_title">"Licht Thema"</string>
@@ -692,7 +692,7 @@ Gebaseerd op een Indigo Amoled Thema"</string>
     <string name="delete_all_front_page_scrolled_positions_success">"Verwijder alle gescrolde posities op de voorpagina gelukt"</string>
     <string name="reset_all_settings_success">"Reset alle instellingen gelukt"</string>
     <string name="username_preview">"u/Hostilenemy"</string>
-    <string name="subreddit_preview">"r/Ferrari"</string>
+    <string name="subreddit_preview">"r/Jaguar"</string>
     <string name="primary_text_preview">"Primaire Tekst"</string>
     <string name="secondary_text_preview">"Secundaire Tekst"</string>
     <string name="post_title_preview">"Dit is een post"</string>

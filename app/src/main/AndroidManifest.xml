@@ -142,14 +142,14 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.rackluxury.jaguar.activities.FerrariAppWidgetProvider">
+        <receiver android:name="com.rackluxury.jaguar.activities.JaguarAppWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
 
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/ferrari_appwidget_info" />
+                android:resource="@xml/jaguar_appwidget_info" />
         </receiver>
 
         <provider

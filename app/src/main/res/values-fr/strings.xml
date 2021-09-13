@@ -431,10 +431,10 @@ peut ne pas fonctionner sur Android 11"</string>
     <string name="settings_reddit_account_title">"Compte Reddit"</string>
     <string name="settings_reddit_account_summary">"u/Hostilenemy"</string>
     <string name="settings_subreddit_title">"Subreddit"</string>
-    <string name="settings_subreddit_summary">"r/Ferrari"</string>
+    <string name="settings_subreddit_summary">"r/Jaguar"</string>
     <string name="settings_share_title">"Partager"</string>
     <string name="settings_share_summary">"Partagez cette application avec d'autres si vous l'appréciez"</string>
-    <string name="settings_version_title">"Sports cars from Ferrari"</string>
+    <string name="settings_version_title">"Sports cars from Jaguar"</string>
     <string name="settings_version_summary">"Version %s"</string>
     <string name="settings_category_customization_title">"Personnalisations"</string>
     <string name="settings_customize_light_theme_title">"Thème Clair"</string>
@@ -501,8 +501,8 @@ peut ne pas fonctionner sur Android 11"</string>
     <string name="error_getting_multi_reddit_data">"Erreur de récupération des données du multireddit"</string>
     <string name="error_loading_multi_reddit_list">"Impossible de synchroniser les multireddits"</string>
     <string name="error_loading_subscriptions">"Impossible de synchroniser les abonnements"</string>
-    <string name="share_this_app">"Essaie Cars from Ferrari, un super client Reddit !
-https://play.google.com/store/apps/details?id=com.rackluxury.ferrari"</string>
+    <string name="share_this_app">"Essaie Cars from Jaguar, un super client Reddit !
+https://play.google.com/store/apps/details?id=com.rackluxury.jaguar"</string>
     <string name="error_getting_subreddit_name">"Impossible de récupérer le nom du subreddit"</string>
     <string name="share_post_link">"Partager le Lien de la Publication"</string>
     <string name="share_image_link">"Partager le Lien de l'Image"</string>
@@ -768,7 +768,7 @@ Basé sur le thème sombre Indigo"</string>
     <!-- Fuzzy -->
     <string name="reset_all_settings_success">"Réinitialisation des paramètres réussie"</string>
     <string name="username_preview">"u/Hostilenemy"</string>
-    <string name="subreddit_preview">"r/Ferrari"</string>
+    <string name="subreddit_preview">"r/Jaguar"</string>
     <string name="primary_text_preview">"Texte principal"</string>
     <string name="secondary_text_preview">"Texte secondaire"</string>
     <string name="post_title_preview">"C'est une publication"</string>

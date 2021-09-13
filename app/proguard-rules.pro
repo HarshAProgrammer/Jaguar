@@ -6,5 +6,5 @@
 
 
 -keep class com.rackluxury.jaguar.* {*;}
-#-keep class com.rackluxury.ferrari.Request {*;}
+#-keep class com.rackluxury.jaguar.Request {*;}
 

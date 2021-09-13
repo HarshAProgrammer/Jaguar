@@ -315,7 +315,7 @@ public class ImagesDetailActivity extends AppCompatActivity {
             bitmap = drawable.getBitmap();
 
             try {
-                File file = new File(getApplicationContext().getExternalCacheDir(), File.separator + "Cars from Ferrari.png");
+                File file = new File(getApplicationContext().getExternalCacheDir(), File.separator + "Cars from Jaguar.png");
                 FileOutputStream fOut = new FileOutputStream(file);
                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, fOut);
                 fOut.flush();
@@ -394,7 +394,7 @@ public class ImagesDetailActivity extends AppCompatActivity {
         drawable = (BitmapDrawable) photoView.getDrawable();
         bitmap = drawable.getBitmap();
         File filePath = Environment.getExternalStorageDirectory();
-        File dir = new File(filePath.getAbsolutePath() + "/Cars from Ferrari/");
+        File dir = new File(filePath.getAbsolutePath() + "/Cars from Jaguar/");
         dir.mkdir();
         File file = new File(dir, System.currentTimeMillis() + ".jpg");
         try {

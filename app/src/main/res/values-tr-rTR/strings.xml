@@ -389,10 +389,10 @@ Tekrar denemek için tıklayın."</string>
     <string name="settings_reddit_account_title">"Reddit Hesabı"</string>
     <string name="settings_reddit_account_summary">"u/Hostilenemy"</string>
     <string name="settings_subreddit_title">"Subreddit"</string>
-    <string name="settings_subreddit_summary">"r/Ferrari"</string>
+    <string name="settings_subreddit_summary">"r/Jaguar"</string>
     <string name="settings_share_title">"Paylaş"</string>
     <string name="settings_share_summary">"Bu uygulamayı beğendiyseniz başkalarıyla paylaşın"</string>
-    <string name="settings_version_title">"Sports cars from Ferrari"</string>
+    <string name="settings_version_title">"Sports cars from Jaguar"</string>
     <string name="settings_version_summary">"%s Sürümü"</string>
     <string name="settings_category_customization_title">"Özelleştirme"</string>
     <string name="settings_customize_light_theme_title">"Açık Tema"</string>
@@ -455,8 +455,8 @@ Tekrar denemek için tıklayın."</string>
     <string name="error_getting_multi_reddit_data">"Multireddit verileri alınırken hata oluştu"</string>
     <string name="error_loading_multi_reddit_list">"Multireddit senkronize edilemiyor"</string>
     <string name="error_loading_subscriptions">"Abonelikler senkronize edilemiyor"</string>
-    <string name="share_this_app">"Harika bir Reddit uygulaması olan Cars from Ferrari'e bir göz atın!
-https://play.google.com/store/apps/details?id=com.rackluxury.ferrari"</string>
+    <string name="share_this_app">"Harika bir Reddit uygulaması olan Cars from Jaguar'e bir göz atın!
+https://play.google.com/store/apps/details?id=com.rackluxury.jaguar"</string>
     <string name="error_getting_subreddit_name">"Subreddit adı alınırken hata oluştu"</string>
     <string name="share_post_link">"Gönderi Bağlantısını Paylaş"</string>
     <string name="share_image_link">"Görüntü Bağlantısını Paylaş"</string>
@@ -701,7 +701,7 @@ Amoled Tema Tabanı Oluştur"</string>
     <string name="delete_all_front_page_scrolled_positions_success">"Ön sayfadaki tüm kaydırılmış pozisyonlar başarıyla silindi"</string>
     <string name="reset_all_settings_success">"Tüm ayarlar başarıyla sıfırlandı"</string>
     <string name="username_preview">"u/Hostilenemy"</string>
-    <string name="subreddit_preview">"r/Ferrari"</string>
+    <string name="subreddit_preview">"r/Jaguar"</string>
     <string name="primary_text_preview">"Birincil Metin"</string>
     <string name="secondary_text_preview">"İkincil Metin"</string>
     <string name="post_title_preview">"Bu bir gönderidir"</string>

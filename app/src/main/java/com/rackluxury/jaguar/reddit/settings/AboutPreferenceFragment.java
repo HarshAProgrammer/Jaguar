@@ -55,7 +55,7 @@ public class AboutPreferenceFragment extends PreferenceFragmentCompat {
                     activity.startActivity(playStoreIntent);
                 } else {
                     Intent intent = new Intent(activity, RedditLinkResolverActivity.class);
-                    intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.rackluxury.ferrari"));
+                    intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.rackluxury.jaguar"));
                     activity.startActivity(intent);
                 }
                 return true;
@@ -87,7 +87,7 @@ public class AboutPreferenceFragment extends PreferenceFragmentCompat {
         if (subredditPreference != null) {
             subredditPreference.setOnPreferenceClickListener(preference -> {
                 Intent intent = new Intent(activity, RedditLinkResolverActivity.class);
-                intent.setData(Uri.parse("https://www.reddit.com/r/Ferrari"));
+                intent.setData(Uri.parse("https://www.reddit.com/r/Jaguar"));
                 activity.startActivity(intent);
                 return true;
             });

@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
-        android:id="@+id/ferrari_widget_image"
+        android:id="@+id/jaguar_widget_image"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_above="@+id/ferrari_widget_button"
+        android:layout_above="@+id/jaguar_widget_button"
         android:layout_centerHorizontal="true"
         android:background="#FFF"
         android:src="@drawable/widget_icon"
@@ -16,7 +16,7 @@
         tools:visibility="visible"
         android:contentDescription="TODO" />
     <Button
-        android:id="@+id/ferrari_widget_button"
+        android:id="@+id/jaguar_widget_button"
         style="@style/StrokeButtonStyle"
         android:background="@color/colorWhite"
         android:layout_width="100dp"
