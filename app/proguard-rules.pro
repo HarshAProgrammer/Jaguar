@@ -5,6 +5,6 @@
 # A resource is loaded with a relative path so the package of this class must be preserved.
 
 
--keep class com.rackluxury.ferrari.* {*;}
+-keep class com.rackluxury.jaguar.* {*;}
 #-keep class com.rackluxury.ferrari.Request {*;}
 
